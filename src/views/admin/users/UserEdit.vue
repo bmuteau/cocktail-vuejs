@@ -1,16 +1,13 @@
 <template>
-    <div>
-        UserEdit Works!
-    </div>
-
+  <div>UserEdit Works!</div>
+  <div>{{ id }}</div>
 </template>
 
 <script>
 export default {
-    name: 'UserEdit',
+  name: "UserEdit",
+  props: ['id']
 }
 </script>
 
-<style >
-
-</style>
+<style></style>

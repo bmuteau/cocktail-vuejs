@@ -4,7 +4,8 @@
   <nav id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/cocktails">Cocktail</router-link> | 
-    <router-link to="/contact">Contact</router-link>
+    <router-link to="/contact">Contact</router-link> |
+    <router-link to="/admin/dashboard">Admin</router-link>
   </nav>
 
 </template>
